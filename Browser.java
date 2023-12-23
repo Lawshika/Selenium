@@ -1,21 +1,14 @@
-package week1.day2;
+//a) Create a class by name: Browser
+//b) Create a main method using shortcut
+//c) print a statement --> "This is my Browser"
+//d) run and confirm the printed in console
+package week1.day1;
 
 public class Browser {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-Browser chrome =new Browser ();
-chrome.launchBrowser ("Chrome");
-chrome.loadUrl();
+System.out.println("This is my Browser");
 	}
-	
-	public String launchBrowser(String browserName)
-	{
-System.out.println("Browser launched successfully");
- return browserName;
-	}
-public void loadUrl()
-{
-System.out.println("Application url loaded successfully");	
-}
+
 }
